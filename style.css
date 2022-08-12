@@ -1,0 +1,46 @@
+/*estilize a body com background: #cfcece*/
+body{
+    background: #cfcece;
+}
+/*estilize a h1 com font-family: cursive , font-style: italic e font-weight: bold*/
+h1{
+    font-family: cursive; 
+    font-style:  italic;
+    font-weight: bold;
+}
+/*estilize a h4 com color red*/
+h4{
+    color: red;
+}
+
+/*estilize #camera com width: 500px , height: 400px e border 1px solid rgb(87, 2, 2)*/
+#camera{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(87,2,2);
+
+}
+/*estilize .column com display: inline e padding: 10px*/
+
+.copy_right_footer {
+    position: fixed;
+    /*falta color: #6c757d*/
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    /*falta background-color: ##f5f5f5*/
+    background-color: ##f5f5f5;
+    /*falta line-height: 3*/
+    line-height: 3;
+    text-align: center;
+}
+img{
+    width:border-radius: 4px;
+    padding: 10px;
+box-shadow: 0 6px 8px 0 rpga(2, 2, 2, 0.2); /*isso é dentro de img (que não foi criada) e deve ter antes width: 37% ,
+border-radius: 4px e padding: 10px*/
+}
+
+img:hover{
+    border-radius: 140px;
+}
