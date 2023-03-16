@@ -21,5 +21,6 @@ function takeSelfie()
         if(imgld=="selfie3"){
             document.getElementById("result3").innerHTML= '<img id= "selfie3" src="'+data_uri+'"/>';
         }
+        <script src="main.js"></script>
     }
 }
